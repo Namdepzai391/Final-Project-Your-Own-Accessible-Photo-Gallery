@@ -16,3 +16,5 @@ function addTabIndex() {
     images[i].setAttribute("tabindex", "0");
   }
 }
+
+window.onload = addTabIndex;
