@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Photo Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="addTabIndex()">
+
+<h1>My Interactive Photo Gallery</h1>
+
+<p id="imageDescription">
+  Hover over or focus on an image to see the description.
+</p>
+
+<div class="gallery">
+
+  <img src="https://picsum.photos/id/1015/300"
+       alt="Mountain landscape"
+       onmouseover="showImage(this)"
+       onmouseleave="resetImage()"
+       onfocus="showImage(this)"
+       onblur="resetImage()">
+
+  <img src="https://picsum.photos/id/1025/300"
+       alt="Cute dog portrait"
+       onmouseover="showImage(this)"
+       onmouseleave="resetImage()"
+       onfocus="showImage(this)"
+       onblur="resetImage()">
+
+  <img src="https://picsum.photos/id/1035/300"
+       alt="Forest pathway"
+       onmouseover="showImage(this)"
+       onmouseleave="resetImage()"
+       onfocus="showImage(this)"
+       onblur="resetImage()">
+
+  <img src="https://picsum.photos/id/1043/300"
+       alt="Ocean waves"
+       onmouseover="showImage(this)"
+       onmouseleave="resetImage()"
+       onfocus="showImage(this)"
+       onblur="resetImage()">
+
+  <img src="https://picsum.photos/id/1050/300"
+       alt="City skyline at night"
+       onmouseover="showImage(this)"
+       onmouseleave="reset
